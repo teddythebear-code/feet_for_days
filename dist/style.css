@@ -14,6 +14,9 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--color_Night);
+  color: var(--color_White);
+  font-family: var(--Open_Sans);
 }
 
 :root {
@@ -24,20 +27,32 @@ body {
   --color_Instagram_start: #fdc468;
   --color_Instagram_end: #df4996;
   --color_YouTube: #c4032a;
+  /* all the wedsite colors */
+  --color_Red-NCS:#AF1D34;
+  --color_Raisin_black:#212027;
+  --color_Night:#121115;
+  --color_Timberwolf:#DED4D1;
+  --color_Raisin_black_2:#292834;
+  --color_White:#FDFDFD;
+  --color_Dark_goldenrod:#A07F18;
+  --color_taupe_gray:#9D9BA1;
+  --color_Anti-flash_white:#F0F1F1;
 }
 
 :root {
-  --font-inter: "inter",sans-serif;
+  --Open_Sans: "Open Sans", sans-serif;
 }
 
 h1, h2, h3 {
+  margin-top: 0;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+p {
   margin-top: 0;
 }
 
 a, a:active, a:visited {
   text-decoration: none;
-}
-
-body {
-  background-color: rgb(44, 44, 44);
 }/*# sourceMappingURL=style.css.map */

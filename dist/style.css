@@ -1,0 +1,43 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::befor,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color_limegreen: #1db489;
+  --color_brightred: #dc414c;
+  --color_Facebook: #198ff5;
+  --color_Twitter: #1ca0f2;
+  --color_Instagram_start: #fdc468;
+  --color_Instagram_end: #df4996;
+  --color_YouTube: #c4032a;
+}
+
+:root {
+  --font-inter: "inter",sans-serif;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+a, a:active, a:visited {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(44, 44, 44);
+}/*# sourceMappingURL=style.css.map */
